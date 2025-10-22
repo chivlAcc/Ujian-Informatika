@@ -478,7 +478,7 @@ int main() {
 
     FILE *fp_config = fopen(CONFIG_FILE, "rb");
     if (!fp_config) {
-        printf("\rSelamat datang di Pengelola Kata Sandi!\n");
+        printf("Selamat datang di Pengelola Kata Sandi!\n");
         printf("Karena ini pertama kali, silakan buat password utama untuk aplikasi.\n\n");
         get_password("Password Utama Baru: ", master_password, sizeof(master_password));
         char confirm_password[256];
